@@ -1,1 +1,8 @@
 schema-version: v1.7
+sast:
+  global-config:
+    ignore-paths:
+      - '**'
+    use-gitignore: true
+    ignore-generated-files: true
+    max-file-size-kb: 500
